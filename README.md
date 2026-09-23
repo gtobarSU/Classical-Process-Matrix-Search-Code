@@ -2,7 +2,7 @@ The timetest4playersearch2v.py file searches for and outputs valid process matri
 
 The file outputs a series of bits that correspond to co-efficients of multi-partite process matrices in the form of binary addition between sequential functions of the outputs of the individual parties of the process matrices.
 
-This search program is what was used in Germain Tobar and Fabio Costa 2020 Class. Quantum Grav. 37 205011, and remains correct as it checks the fixed point condition, rather than the characterisation theorem of Ämin Baumeler et al 2019 Class. Quantum Grav. 36 224002, and extended to multiple parties in Germain Tobar and Fabio Costa 2020 Class. Quantum Grav. 37 205011, which was later shown to have a counter example in Dourdent et. al. arXiv:2512.23599 (forthcoming errata).
+This search program is what was used in Germain Tobar and Fabio Costa 2020 Class. Quantum Grav. 37 205011 to discover the listed process matrices, and remains correct as it checks the fixed point condition, rather than the characterisation theorem of Ämin Baumeler et al 2019 Class. Quantum Grav. 36 224002, and extended to multiple parties in Germain Tobar and Fabio Costa 2020 Class. Quantum Grav. 37 205011, which was later shown to have a counter example in Dourdent et. al. arXiv:2512.23599 (forthcoming errata).
 
 The timetest4player.py file checks if an arbitrary output-input function is a valid process matrix by checking the fixed point condition for all possible local operations of all parties. In order to use it: modify the Timeloop functions for each player, which corresponds to selecting a different process matrix - it was tested to work for all known classical process matrices.
 
